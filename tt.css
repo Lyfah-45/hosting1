@@ -1,0 +1,31 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #8e7d7d;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #007bff;
+    transition: opacity 0.5s ease-in-out;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
